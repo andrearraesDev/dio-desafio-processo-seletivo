@@ -1,18 +1,84 @@
-## Getting Started
+# 🧠 Sistema de Processo Seletivo Automatizado
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> Simulação de um processo seletivo completo com gerenciamento de candidatos, análise salarial e geração de relatórios — desenvolvido em Java.
 
-## Folder Structure
+![Java Badge](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📌 Descrição do Projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Este projeto tem como objetivo **automatizar as etapas de um processo seletivo**, simulando situações reais como:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Listagem e organização de candidatos  
+- Avaliação de pretensão salarial com base no orçamento da vaga  
+- Tentativas de contato com candidatos  
+- Geração de um relatório final com os resultados  
 
-## Dependency Management
+A aplicação foi escrita em **Java puro**, utilizando recursos como laços de repetição, condicionais, arrays, listas dinâmicas e geração de valores aleatórios, com foco em **boas práticas de programação** e **orientação a objetivos reais do mercado**.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## ⚙️ Funcionalidades
+
+✅ Exibição clara e organizada da lista de candidatos  
+✅ Simulação da análise salarial (dentro de uma faixa definida)  
+✅ Tentativas realistas de contato com os candidatos  
+✅ Relatório final detalhado do processo seletivo  
+✅ Código limpo, comentado e modularizado
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Java 17  
+- `java.util.Random` e `ThreadLocalRandom`  
+- Estruturas de controle e laços  
+- Listas (`ArrayList`)  
+- Boas práticas e separação de responsabilidades
+
+---
+
+## 📸 Demonstração (CLI)
+
+```bash
+=== PROCESSO SELETIVO - SISTEMA AUTOMATIZADO ===
+Vagas disponíveis: 5 | Salário oferecido: R$ 2000.00
+
+=== LISTA DE CANDIDATOS ===
+01 - FELIPE
+02 - MARCIA
+...
+
+=== FASE DE SELEÇÃO ===
+Candidato 1/10: FELIPE
+Pretensão salarial: R$ 1980.32
+STATUS: SELECIONADO
+...
+
+=== RELATÓRIO FINAL ===
+Candidatos contratados:
+- FELIPE
+- JULIA
+- MIRELA
+RESULTADO: 3 DE 5 VAGAS PREENCHIDAS
+
+```
+
+---
+
+## 🚀 Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/andrearraesDev/dio-desafio-processo-seletivo.git
+   ```
+
+2. Compile e execute o código:
+   ```bash
+   javac ProcessoSeletivo.java
+   java ProcessoSeletivo
+   ```
+
+---
+### Desenvolvido com ❤️ por André Arraes como parte do bootcamp da DIO.
